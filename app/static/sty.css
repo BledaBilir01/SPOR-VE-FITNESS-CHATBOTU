@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#chatbox {
+    width: 100%;
+    height: calc(80vh - 50px); /* Eklenen kısım */
+    overflow-y: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.message-container {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.botText, .userText {
+    max-width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.botText {
+    background-color: #dcf8c6;
+    align-self: flex-start;
+}
+
+.userText {
+    background-color: #90e0ef;
+    align-self: flex-end;
+}
+
+#userInput {
+    display: flex;
+    justify-content: center; /* Yeni eklenen kısım */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#textInput {
+    width: calc(100% - 60px); /* Değiştirilen kısım */
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+#buttonInput {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#micInput {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+}
